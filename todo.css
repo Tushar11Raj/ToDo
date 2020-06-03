@@ -1,0 +1,104 @@
+html,
+body{
+	height: 90%;
+}
+
+.container{
+	margin: 25px auto;
+	width: 300px;
+	background-color: blue;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  height: 30px;
+  color: white;
+  font-size: 20px;
+  font-family: Roboto;
+  justify-content: center;
+  padding: 5px 10px 0px 5px;
+}
+
+#Developed{
+	width: 40%;
+	padding-right: 40%;
+	background-color: black;
+}
+
+.bottomBarIcons{
+	color: white;
+	margin-right: 10px;
+}
+
+h1{
+	font-weight: normal;
+	background-color: #833ab4;
+	color: white;
+	margin: 0;
+	font-size: 24px;
+	padding: 10px 20px;
+}
+
+span{
+	background-color: #833ab4;
+	color: white;
+	height: 40px;
+	text-align: center;
+	width: 0;
+	display: inline-block;
+	margin-right: 20px;
+	transition: 0.4s linear;
+}
+
+body {
+	font-family: Roboto;
+	background: #833ab4;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+li{
+	list-style-type: none;
+	height: 40px;
+	background: #fff;
+	justify-content: center;
+}
+
+
+li:nth-child(2n){
+	background: #f7f7f7;
+}
+
+
+li:hover span{
+	width: 40px;
+}
+ul{
+	margin: 0px;
+	padding: 0;
+	line-height: 30px;
+}
+
+input{
+	width: 100%;
+	padding: 13px 13px 13px 20px;
+	font-size: 18px; 
+	background-color: #f7f7f7;
+	box-sizing: border-box;
+	color: #2980b9;
+	border-style: none;
+}
+
+input:focus{
+	background-color: #fff;
+	border: solid 3px #fd1d1d;
+}
+
+.completed{
+	color:gray;
+	text-decoration:line-through;
+}
